@@ -128,7 +128,11 @@ module.exports = function(app) {
       var output = [];
       output[0] = current[0];
       for (var i = 1; i < current.length; i++) {
-        output[i] = current[i].toPrecision(4);
+        if (typeof current[i] === 'number') {
+          output[i] = current[i].toPrecision(4);
+        } else {
+          console.log("Non Number",typeof current[i], plugin.columns[i], current[i]);
+        }
       };
       plugin.logger.log(output.join(","));
     }));
