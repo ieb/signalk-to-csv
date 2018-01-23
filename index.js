@@ -262,8 +262,77 @@ module.exports = function(app) {
         title: 'VMG to Polar VM ratio ',
         optionKey: 'pvmgr',
         key: 'performance.polarVelocityMadeGoodRatio' 
+     },
+     {
+        title: 'Atmospheric Temperature ',
+        optionKey: 't',
+        key: 'environment.outside.temperature' 
+     },
+     {
+        title: 'Atmospheric Pressure ',
+        optionKey: 'p',
+        key: 'environment.outside.pressure' 
+     },
+     {
+        title: 'Atmospheric Humidity ',
+        optionKey: 'rh',
+        key: 'environment.outside.humidity' 
+     },
+     {
+        title: 'Inside Temperature ',
+        optionKey: 'ti',
+        key: 'environment.inside.temperature' 
+     },
+     {
+        title: 'Rate of turn ',
+        optionKey: 'rturn',
+        key: 'environment.inside.temperature' 
+     },
+     {
+        title: 'Rate of roll ',
+        optionKey: 'rroll',
+        key: 'navigation.gyro.roll' 
+     },
+     {
+        title: 'Rate of pitch ',
+        optionKey: 'rpitch',
+        key: 'navigation.gyro.pitch' 
+     },
+     {
+        title: 'Rate of yaw ',
+        optionKey: 'rpitch',
+        key: 'navigation.gyro.yaw' 
+     },
+     {
+        title: 'Accel x ',
+        optionKey: 'accelx',
+        key: 'navigation.accel.x' 
+     },
+     {
+        title: 'Accel y ',
+        optionKey: 'accely',
+        key: 'navigation.accel.y' 
+     },
+     {
+        title: 'Accel z ',
+        optionKey: 'accelz',
+        key: 'navigation.accel.z' 
+     },
+     {
+        title: 'Sensor Heading Magnetic ',
+        optionKey: 'shdm',
+        key: 'navigation.headingMagnetic' 
+     },
+     {
+        title: 'Roll ',
+        optionKey: 'roll',
+        key: 'navigation.attitude.roll' 
+     },
+     {
+        title: 'Pitch ',
+        optionKey: 'pitch',
+        key: 'navigation.attitude.pitch' 
      }
-
   ];
 
   //===========================================================================
